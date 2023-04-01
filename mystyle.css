@@ -12,7 +12,7 @@ body{
     background-color: hsl(212, 45%, 89%);
     height: 100%;
     width:100%;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -21,7 +21,7 @@ body{
 .floor{
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
-    width: 25%;
+    width: 60%;
     border-radius: 10px; 
     box-shadow: 0 0 5px hsl(212, 45%, 89%);
 }
