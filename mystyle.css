@@ -10,18 +10,16 @@ body{
     font-family: 'Outfit', sans-serif;
     font-family: 'Space Mono', monospace;
     background-color: hsl(212, 45%, 89%);
-    height: 100%;
-    width:100%;
+    min-height: 100vh;
     display: grid;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
 }
 
 
 .floor{
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
-    width: 60%;
+    max-width: 320px;
     border-radius: 10px; 
     box-shadow: 0 0 5px hsl(212, 45%, 89%);
 }
@@ -29,24 +27,20 @@ body{
 .wrapper{  
   padding:1rem;
   display: flexbox;
-  width: 100%;
   align-items: center;
 }
 
 img{
   max-width: 100%; 
   border-radius: 10px;
-  display: block;
-
 }
 
 
-.word{
-    font-size: 23px;
+h1{
+    font-size: 15px;
     font-family: sans-serif;
     font-weight: 700;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    text-align: center;
 }
 
 
@@ -54,10 +48,10 @@ img{
 p{
 
     font-family: Outfit;
-    font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 1440px){
